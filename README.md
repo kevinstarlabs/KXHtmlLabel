@@ -3,6 +3,10 @@
 KXHtmlLabel
 ===
 
+[![Pod Version](http://img.shields.io/cocoapods/v/KXHtmlLabel.svg?style=flat)](http://cocoadocs.org/docsets/KXHtmlLabel)
+[![Pod Platform](http://img.shields.io/cocoapods/p/KXHtmlLabel.svg?style=flat)](http://cocoadocs.org/docsets/KXHtmlLabel)
+[![Pod License](http://img.shields.io/cocoapods/l/KXHtmlLabel.svg?style=flat)](http://opensource.org/licenses/MIT)
+
 KXHtmlLabel is a powerful **UILabel/UIButton** extension. It enables UILabel/UIButton to interprete **HTML tags**. Besides, it also enables UILabel/UIButton to display awesome icons from **FontAwesome**.
 
 # Features
