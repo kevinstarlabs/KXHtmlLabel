@@ -23,3 +23,4 @@
 #import "NSAttributedString+KXHtml.h"
 #import "UILabel+KXHtml.h"
 #import "UIButton+KXHtml.h"
+#import "KXXmlCacheManager.h"
