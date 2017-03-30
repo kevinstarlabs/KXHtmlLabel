@@ -102,7 +102,7 @@ KXHtmlLabel only supports the following HTML tags.
 [label setHtml:@"<i class=\"fa-bus\"></i>"];
 
 //Display a text with foreground color `#ffffff` and background color `#00ff00`
-[label setHtml:@"`<font color=\"#ffffff\" bgcolor=\"#00ff00\">Hello</font>"];
+[label setHtml:@"<font color=\"#ffffff\" bgcolor=\"#00ff00\">Hello</font>"];
 
 //Display a text with center alignment and set linespacing to 15
 [label setHtml:@"<p align=\"left\" linespacing=\"15\">Hello World. This is a paragraph....</p>"];
