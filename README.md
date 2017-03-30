@@ -100,7 +100,7 @@ label.setHtml("<i class=\"fa-bus\"></i>");
 label.setHtml("`<font color=\"#ffffff\" bgcolor=\"#00ff00\">Hello</font>");
 
 //Display a text with center alignment and set linespacing to 15
-label.setHtml("<p align=\"left\ linespacing=\"15\">Hello World. This is a paragraph....</p>");
+label.setHtml("<p align=\"left\" linespacing=\"15\">Hello World. This is a paragraph....</p>");
 
 ```
 
