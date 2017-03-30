@@ -71,7 +71,7 @@ You can turn off this feature using the following code.
 Also, you can clear the cache by using the following code.
 
 ```objective-c
-[KXXmlCacheManager sharedManager] clear]; 
+[[KXXmlCacheManager sharedManager] clear]; 
 ```
 
 # Supported tags
