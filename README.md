@@ -6,9 +6,9 @@ KXHtmlLabel
 KXHtmlLabel is a powerful **UILabel/UIButton** extension. It enables UILabel/UIButton to interprete **HTML tags**. Besides, it also enables UILabel/UIButton to display awesome icons from **FontAwesome**.
 
 # Features
-- Enables UILabel to interprete HTML tags
-- Supports UILabel and UIButton and their subclasses.
-- Supports FontAwesome html tags
+- Enables **UILabel** and **UIButton** to interprete HTML tags
+- Supports **UILabel** and **UIButton** and their subclasses.
+- Supports **FontAwesome** html tags
 - Supports paragraphs with text aligment and line spacing
 - Supports font weight attribute on iOS 8.2 and above
 
