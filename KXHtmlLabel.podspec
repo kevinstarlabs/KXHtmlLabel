@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name = "KXHtmlLabel"
-  s.version = "0.8.0"
+  s.version = "0.8.1"
 
   s.homepage = "https://github.com/kxzen/KXHtmlLabel"
   s.summary = "powerful UILabel extension, display HTML on UILabel"
