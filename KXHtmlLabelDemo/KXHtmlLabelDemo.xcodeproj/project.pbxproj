@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A7E51571E8A989B0070E3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E51561E8A989B0070E3EF /* main.m */; };
+		0A7E515A1E8A989B0070E3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E51591E8A989B0070E3EF /* AppDelegate.m */; };
+		0A7E515D1E8A989B0070E3EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A7E515C1E8A989B0070E3EF /* ViewController.m */; };
+		0A7E51601E8A989B0070E3EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E515E1E8A989B0070E3EF /* Main.storyboard */; };
+		0A7E51621E8A989C0070E3EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E51611E8A989C0070E3EF /* Assets.xcassets */; };
+		0A7E51651E8A989C0070E3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A7E51631E8A989C0070E3EF /* LaunchScreen.storyboard */; };
+		0AA6F4CA1E8CAB4A00841EDA /* KXFontLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6F4C91E8CAB4A00841EDA /* KXFontLoader.m */; };
+		0AA6F4D01E8CD3C700841EDA /* UIColor+KXHex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA6F4CF1E8CD3C700841EDA /* UIColor+KXHex.m */; };
+		0AB432F41E8AB7B700157494 /* KXXmlCacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB432CA1E8AB7B700157494 /* KXXmlCacheManager.m */; };
+		0AB432F51E8AB7B700157494 /* KXXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB432CC1E8AB7B700157494 /* KXXmlParser.m */; };
+		0AB433041E8AB7B700157494 /* NSAttributedString+KXHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB432EF1E8AB7B700157494 /* NSAttributedString+KXHtml.m */; };
+		0AB433051E8AB7B700157494 /* UIButton+KXHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB432F11E8AB7B700157494 /* UIButton+KXHtml.m */; };
+		0AB433061E8AB7B700157494 /* UILabel+KXHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AB432F31E8AB7B700157494 /* UILabel+KXHtml.m */; };
+		0AE26A351E8B7F2B00E98B8C /* KXStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE26A341E8B7F2B00E98B8C /* KXStringAttribute.m */; };
+		0AE26A381E8B857900E98B8C /* KXFontAwesome.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE26A371E8B857900E98B8C /* KXFontAwesome.m */; };
+		0AE26A3B1E8B8C9800E98B8C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE26A3A1E8B8C9800E98B8C /* CoreText.framework */; };
+		0AE26A3D1E8B8D8600E98B8C /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0AE26A3C1E8B8D8600E98B8C /* FontAwesome.otf */; };
+		0AE26A401E8B9D4D00E98B8C /* KXXmlObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AE26A3F1E8B9D4D00E98B8C /* KXXmlObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A7E51521E8A989B0070E3EF /* KXHtmlLabelDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KXHtmlLabelDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A7E51561E8A989B0070E3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A7E51581E8A989B0070E3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0A7E51591E8A989B0070E3EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0A7E515B1E8A989B0070E3EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0A7E515C1E8A989B0070E3EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0A7E515F1E8A989B0070E3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A7E51611E8A989C0070E3EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A7E51641E8A989C0070E3EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A7E51661E8A989C0070E3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA6F4C81E8CAB4A00841EDA /* KXFontLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXFontLoader.h; sourceTree = "<group>"; };
+		0AA6F4C91E8CAB4A00841EDA /* KXFontLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXFontLoader.m; sourceTree = "<group>"; };
+		0AA6F4CC1E8CAC7400841EDA /* UIColor+KXHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+KXHex.h"; sourceTree = "<group>"; };
+		0AA6F4CF1E8CD3C700841EDA /* UIColor+KXHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+KXHex.m"; sourceTree = "<group>"; };
+		0AB432C91E8AB7B700157494 /* KXXmlCacheManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXXmlCacheManager.h; sourceTree = "<group>"; };
+		0AB432CA1E8AB7B700157494 /* KXXmlCacheManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXXmlCacheManager.m; sourceTree = "<group>"; };
+		0AB432CB1E8AB7B700157494 /* KXXmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXXmlParser.h; sourceTree = "<group>"; };
+		0AB432CC1E8AB7B700157494 /* KXXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXXmlParser.m; sourceTree = "<group>"; };
+		0AB432EE1E8AB7B700157494 /* NSAttributedString+KXHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+KXHtml.h"; sourceTree = "<group>"; };
+		0AB432EF1E8AB7B700157494 /* NSAttributedString+KXHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+KXHtml.m"; sourceTree = "<group>"; };
+		0AB432F01E8AB7B700157494 /* UIButton+KXHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+KXHtml.h"; sourceTree = "<group>"; };
+		0AB432F11E8AB7B700157494 /* UIButton+KXHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+KXHtml.m"; sourceTree = "<group>"; };
+		0AB432F21E8AB7B700157494 /* UILabel+KXHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+KXHtml.h"; sourceTree = "<group>"; };
+		0AB432F31E8AB7B700157494 /* UILabel+KXHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+KXHtml.m"; sourceTree = "<group>"; };
+		0AE26A321E8B72FD00E98B8C /* KXHtmlLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXHtmlLabel.h; sourceTree = "<group>"; };
+		0AE26A331E8B7F2B00E98B8C /* KXStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXStringAttribute.h; sourceTree = "<group>"; };
+		0AE26A341E8B7F2B00E98B8C /* KXStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXStringAttribute.m; sourceTree = "<group>"; };
+		0AE26A361E8B857900E98B8C /* KXFontAwesome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXFontAwesome.h; sourceTree = "<group>"; };
+		0AE26A371E8B857900E98B8C /* KXFontAwesome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXFontAwesome.m; sourceTree = "<group>"; };
+		0AE26A3A1E8B8C9800E98B8C /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		0AE26A3C1E8B8D8600E98B8C /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		0AE26A3E1E8B9D4D00E98B8C /* KXXmlObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXXmlObject.h; sourceTree = "<group>"; };
+		0AE26A3F1E8B9D4D00E98B8C /* KXXmlObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXXmlObject.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A7E514F1E8A989B0070E3EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AE26A3B1E8B8C9800E98B8C /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A7E51491E8A989B0070E3EF = {
+			isa = PBXGroup;
+			children = (
+				0A7E516C1E8A98C90070E3EF /* KXHtmlLabel */,
+				0A7E51541E8A989B0070E3EF /* KXHtmlLabelDemo */,
+				0A7E51531E8A989B0070E3EF /* Products */,
+				0AE26A391E8B8C9800E98B8C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0A7E51531E8A989B0070E3EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E51521E8A989B0070E3EF /* KXHtmlLabelDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A7E51541E8A989B0070E3EF /* KXHtmlLabelDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E51581E8A989B0070E3EF /* AppDelegate.h */,
+				0A7E51591E8A989B0070E3EF /* AppDelegate.m */,
+				0A7E515B1E8A989B0070E3EF /* ViewController.h */,
+				0A7E515C1E8A989B0070E3EF /* ViewController.m */,
+				0A7E515E1E8A989B0070E3EF /* Main.storyboard */,
+				0A7E51611E8A989C0070E3EF /* Assets.xcassets */,
+				0A7E51631E8A989C0070E3EF /* LaunchScreen.storyboard */,
+				0A7E51661E8A989C0070E3EF /* Info.plist */,
+				0A7E51551E8A989B0070E3EF /* Supporting Files */,
+			);
+			path = KXHtmlLabelDemo;
+			sourceTree = "<group>";
+		};
+		0A7E51551E8A989B0070E3EF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A7E51561E8A989B0070E3EF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A7E516C1E8A98C90070E3EF /* KXHtmlLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6F4CB1E8CAC7400841EDA /* PrivateHeaders */,
+				0AE26A3C1E8B8D8600E98B8C /* FontAwesome.otf */,
+				0AA6F4CF1E8CD3C700841EDA /* UIColor+KXHex.m */,
+				0AB432C91E8AB7B700157494 /* KXXmlCacheManager.h */,
+				0AB432CA1E8AB7B700157494 /* KXXmlCacheManager.m */,
+				0AE26A3E1E8B9D4D00E98B8C /* KXXmlObject.h */,
+				0AE26A3F1E8B9D4D00E98B8C /* KXXmlObject.m */,
+				0AB432CB1E8AB7B700157494 /* KXXmlParser.h */,
+				0AB432CC1E8AB7B700157494 /* KXXmlParser.m */,
+				0AE26A331E8B7F2B00E98B8C /* KXStringAttribute.h */,
+				0AE26A341E8B7F2B00E98B8C /* KXStringAttribute.m */,
+				0AB432EE1E8AB7B700157494 /* NSAttributedString+KXHtml.h */,
+				0AB432EF1E8AB7B700157494 /* NSAttributedString+KXHtml.m */,
+				0AB432F01E8AB7B700157494 /* UIButton+KXHtml.h */,
+				0AB432F11E8AB7B700157494 /* UIButton+KXHtml.m */,
+				0AB432F21E8AB7B700157494 /* UILabel+KXHtml.h */,
+				0AB432F31E8AB7B700157494 /* UILabel+KXHtml.m */,
+				0AE26A321E8B72FD00E98B8C /* KXHtmlLabel.h */,
+				0AE26A361E8B857900E98B8C /* KXFontAwesome.h */,
+				0AE26A371E8B857900E98B8C /* KXFontAwesome.m */,
+				0AA6F4C81E8CAB4A00841EDA /* KXFontLoader.h */,
+				0AA6F4C91E8CAB4A00841EDA /* KXFontLoader.m */,
+			);
+			name = KXHtmlLabel;
+			path = ../KXHtmlLabel;
+			sourceTree = "<group>";
+		};
+		0AA6F4CB1E8CAC7400841EDA /* PrivateHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				0AA6F4CC1E8CAC7400841EDA /* UIColor+KXHex.h */,
+			);
+			path = PrivateHeaders;
+			sourceTree = "<group>";
+		};
+		0AE26A391E8B8C9800E98B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AE26A3A1E8B8C9800E98B8C /* CoreText.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A7E51511E8A989B0070E3EF /* KXHtmlLabelDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A7E51691E8A989C0070E3EF /* Build configuration list for PBXNativeTarget "KXHtmlLabelDemo" */;
+			buildPhases = (
+				0A7E514E1E8A989B0070E3EF /* Sources */,
+				0A7E514F1E8A989B0070E3EF /* Frameworks */,
+				0A7E51501E8A989B0070E3EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KXHtmlLabelDemo;
+			productName = KXHtmlLabelDemo;
+			productReference = 0A7E51521E8A989B0070E3EF /* KXHtmlLabelDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A7E514A1E8A989B0070E3EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kxzon.com;
+				TargetAttributes = {
+					0A7E51511E8A989B0070E3EF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = DMPVS7SFXZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0A7E514D1E8A989B0070E3EF /* Build configuration list for PBXProject "KXHtmlLabelDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A7E51491E8A989B0070E3EF;
+			productRefGroup = 0A7E51531E8A989B0070E3EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A7E51511E8A989B0070E3EF /* KXHtmlLabelDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A7E51501E8A989B0070E3EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7E51651E8A989C0070E3EF /* LaunchScreen.storyboard in Resources */,
+				0A7E51621E8A989C0070E3EF /* Assets.xcassets in Resources */,
+				0AE26A3D1E8B8D8600E98B8C /* FontAwesome.otf in Resources */,
+				0A7E51601E8A989B0070E3EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A7E514E1E8A989B0070E3EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A7E515D1E8A989B0070E3EF /* ViewController.m in Sources */,
+				0AB432F51E8AB7B700157494 /* KXXmlParser.m in Sources */,
+				0AB433061E8AB7B700157494 /* UILabel+KXHtml.m in Sources */,
+				0A7E515A1E8A989B0070E3EF /* AppDelegate.m in Sources */,
+				0AA6F4D01E8CD3C700841EDA /* UIColor+KXHex.m in Sources */,
+				0AE26A351E8B7F2B00E98B8C /* KXStringAttribute.m in Sources */,
+				0AE26A381E8B857900E98B8C /* KXFontAwesome.m in Sources */,
+				0AE26A401E8B9D4D00E98B8C /* KXXmlObject.m in Sources */,
+				0A7E51571E8A989B0070E3EF /* main.m in Sources */,
+				0AB432F41E8AB7B700157494 /* KXXmlCacheManager.m in Sources */,
+				0AA6F4CA1E8CAB4A00841EDA /* KXFontLoader.m in Sources */,
+				0AB433051E8AB7B700157494 /* UIButton+KXHtml.m in Sources */,
+				0AB433041E8AB7B700157494 /* NSAttributedString+KXHtml.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0A7E515E1E8A989B0070E3EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7E515F1E8A989B0070E3EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A7E51631E8A989C0070E3EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A7E51641E8A989C0070E3EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A7E51671E8A989C0070E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A7E51681E8A989C0070E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A7E516A1E8A989C0070E3EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DMPVS7SFXZ;
+				INFOPLIST_FILE = KXHtmlLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kxzen.KXHtmlLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)../KXHtmlLabel/**";
+			};
+			name = Debug;
+		};
+		0A7E516B1E8A989C0070E3EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DMPVS7SFXZ;
+				INFOPLIST_FILE = KXHtmlLabelDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kxzen.KXHtmlLabelDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)../KXHtmlLabel/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A7E514D1E8A989B0070E3EF /* Build configuration list for PBXProject "KXHtmlLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7E51671E8A989C0070E3EF /* Debug */,
+				0A7E51681E8A989C0070E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A7E51691E8A989C0070E3EF /* Build configuration list for PBXNativeTarget "KXHtmlLabelDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A7E516A1E8A989C0070E3EF /* Debug */,
+				0A7E516B1E8A989C0070E3EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A7E514A1E8A989B0070E3EF /* Project object */;
+}
