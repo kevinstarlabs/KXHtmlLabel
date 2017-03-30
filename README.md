@@ -13,7 +13,7 @@ KXHtmlLabel is a powerful **UILabel/UIButton** extension. It enables UILabel/UIB
 - Enables **UILabel** and **UIButton** to interprete HTML tags
 - Supports **UILabel** and **UIButton** and their subclasses.
 - Supports **FontAwesome** html tags
-- Supports paragraphs with text aligment and line spacing
+- Supports paragraphs with text alignment, wordwrap and line spacing
 - Supports font weight attribute on iOS 8.2 and above
 
 
@@ -33,7 +33,7 @@ pod 'KXHtmlLabel'
 ### Old-fashioned way
 
 - Add all subfolders and `*.h, *.m, FontAwesome.otf` from folder `KXHtmlLabel/` to your project.
-- Add `CoreText.framework` to your linked frameworks.
+- Add **CoreText.framework** to your linked frameworks.
 - `#import "KXHtmlLabel.h"` where you want to use the framework.
 
 # Usage
