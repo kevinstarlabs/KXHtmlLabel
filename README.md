@@ -64,10 +64,9 @@ KXHtmlLabel uses its own XML parser to parse HTML strings. To avoid parsing iden
 You can turn off this feature using the following code.
 
 ```objective-c
-"#import "KXXmlCacheManager.h"
-
 [KXXmlCacheManager sharedManager].enabled = NO; 
 ```
+
 Also, you can clear the cache by using the following code.
 
 ```objective-c
