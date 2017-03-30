@@ -93,19 +93,19 @@ KXHtmlLabel only supports the following HTML tags.
 ```objective-c
 
 //Display text in bold style.
-label.setHtml("<b>Bold</b>");
+[label setHtml:@"<b>Bold</b>"];
 
 //Display text in italic style.
-label.setHtml("<i>Italic</i>");
+[label setHtml:@"<i>Italic</i>"];
 
 //Display a [fa-bus] icon from FontAwesome
-label.setHtml("<i class=\"fa-bus\"></i>");
+[label setHtml:@"<i class=\"fa-bus\"></i>"];
 
 //Display a text with foreground color `#ffffff` and background color `#00ff00`
-label.setHtml("`<font color=\"#ffffff\" bgcolor=\"#00ff00\">Hello</font>");
+[label setHtml:@"`<font color=\"#ffffff\" bgcolor=\"#00ff00\">Hello</font>"];
 
 //Display a text with center alignment and set linespacing to 15
-label.setHtml("<p align=\"left\" linespacing=\"15\">Hello World. This is a paragraph....</p>");
+[label setHtml:@"<p align=\"left\" linespacing=\"15\">Hello World. This is a paragraph....</p>"];
 
 ```
 
