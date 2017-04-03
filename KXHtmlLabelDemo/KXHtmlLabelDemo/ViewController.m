@@ -87,50 +87,48 @@
     [self.view addSubview:label6];
     
     
-    NSDictionary *views = @{@"topLayoutGuide": self.topLayoutGuide,
-                            @"label1": label1,
-                            @"label2": label2,
-                            @"label3": label3,
-                            @"label4": label4,
-                            @"label5": label5,
-                            @"label6": label6};
-    
     NSDictionary *metrics = @{@"padding": @(15)};
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label1]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label1)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label2]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label2)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label3]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label3)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label4]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label4)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label5]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label5)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(padding)-[label6]-(padding)-|"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(label6)]];
     
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[topLayoutGuide]-(padding)-[label1]-(padding)-[label2]-(padding)-[label3]-(padding)-[label4]-(padding)-[label5]-(padding)-[label6(==120)]"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:views]];
+                                                                        views:NSDictionaryOfVariableBindings(self.topLayoutGuide,
+                                                                                                             label1,
+                                                                                                             label2,
+                                                                                                             label3,
+                                                                                                             label4,
+                                                                                                             label5,
+                                                                                                             label6)]];
 
 }
 
