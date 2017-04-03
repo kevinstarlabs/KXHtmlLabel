@@ -119,17 +119,18 @@
                                                                       metrics:metrics
                                                                         views:NSDictionaryOfVariableBindings(label6)]];
     
+    NSDictionary *views = @{@"topLayoutGuide": self.topLayoutGuide,
+                            @"label1": label1,
+                            @"label2": label2,
+                            @"label3": label3,
+                            @"label4": label4,
+                            @"label5": label5,
+                            @"label6": label6};
+    
     [self.view addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:[topLayoutGuide]-(padding)-[label1]-(padding)-[label2]-(padding)-[label3]-(padding)-[label4]-(padding)-[label5]-(padding)-[label6(==120)]"
                                                                       options:0
                                                                       metrics:metrics
-                                                                        views:NSDictionaryOfVariableBindings(self.topLayoutGuide,
-                                                                                                             label1,
-                                                                                                             label2,
-                                                                                                             label3,
-                                                                                                             label4,
-                                                                                                             label5,
-                                                                                                             label6)]];
-
+                                                                        views:views]];
 }
 
 
